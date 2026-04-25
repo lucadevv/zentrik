@@ -148,7 +148,8 @@
   },
   "Footer": {
     "tagline": "Global software studio. Construimos software a medida, productos SaaS e integraciones de APIs.",
-    "legalEntity": "Zentrik Technologies LLC — Operando globalmente con presencia en Latinoamérica.",
+    "legalEntity": "Zentrik Technologies LLC · Headquartered in Latin America · US incorporation in progress.",
+    "contact": "Contacto: hola@zentrik.lat · legal@zentrik.lat · privacy@zentrik.lat",
     "sections": {
       "company": "Empresa",
       "services": "Servicios",
@@ -179,7 +180,7 @@
       "sections": {
         "identity": {
           "title": "1. Identidad del proveedor",
-          "body": "Los servicios y productos descritos son provistos por Zentrik Technologies LLC, un studio de software global con operaciones en Latinoamérica y proceso de incorporación formal en Estados Unidos. Zentrik es titular de toda la propiedad intelectual asociada a sus productos, incluyendo la marca \"Sendio\". Aclaración: la marca \"Sendio\" de Zentrik Technologies no tiene relación, sociedad ni vínculo de ningún tipo con Sendio Inc. (Estados Unidos), empresa dedicada a soluciones de seguridad de correo electrónico."
+          "body": "Los servicios y productos descritos son provistos por Zentrik Technologies LLC (\"Zentrik\"), un studio de software global con operaciones en Latinoamérica y proceso de incorporación formal en Estados Unidos. Sede operativa: Latinoamérica. Contacto legal: legal@zentrik.lat. Zentrik es titular de toda la propiedad intelectual asociada a sus productos, incluyendo la marca \"Sendio\". Aclaración: la marca \"Sendio\" de Zentrik Technologies no tiene relación, sociedad ni vínculo de ningún tipo con Sendio Inc. (Estados Unidos), empresa dedicada a soluciones de seguridad de correo electrónico."
         },
         "services": {
           "title": "2. Servicios y productos",
@@ -195,7 +196,7 @@
         },
         "use": {
           "title": "5. Uso aceptable",
-          "body": "Los clientes y usuarios se comprometen a utilizar los servicios y productos de Zentrik dentro de la legalidad aplicable, respetando políticas de plataformas de terceros (especialmente Meta y WhatsApp Business cuando aplica), y absteniéndose de usos que comprometan la seguridad, integridad o reputación de Zentrik o sus clientes."
+          "body": "Los clientes y usuarios se comprometen a utilizar los servicios y productos de Zentrik dentro de la legalidad aplicable, respetando las políticas de plataformas de terceros (especialmente Meta Platforms, Inc., WhatsApp Business Platform y WhatsApp Commerce Policy cuando apliquen), y absteniéndose de usos que comprometan la seguridad, integridad o reputación de Zentrik o sus clientes. En particular, y conforme a la WhatsApp Business Messaging Policy, queda EXPRESAMENTE PROHIBIDO el uso de Sendio o de cualquier producto de Zentrik por parte de: (a) gobiernos, agencias gubernamentales, partidos políticos, candidatos electorales, campañas o comités de acción política (PACs); (b) cuentas oficiales para mensajería política, electoral o de propaganda; (c) cualquier actividad listada como prohibida en https://business.whatsapp.com/policy. Zentrik se reserva el derecho de suspender de forma inmediata y sin reembolso cualquier cuenta que viole estas restricciones."
         },
         "confidentiality": {
           "title": "6. Confidencialidad",

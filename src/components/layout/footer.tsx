@@ -108,13 +108,16 @@ export function Footer() {
           </FooterColumn>
         </div>
 
-        <div className="mt-12 flex flex-col gap-4 border-t border-border/60 pt-6 sm:flex-row sm:items-center sm:justify-between">
-          <p className="text-xs text-muted-foreground">
-            © {year} Zentrik Technologies LLC. {t("rights")}
-          </p>
-          <p className="max-w-md text-[11px] leading-relaxed text-muted-foreground/80 sm:text-right">
-            {t("disclaimer")}
-          </p>
+        <div className="mt-12 flex flex-col gap-3 border-t border-border/60 pt-6">
+          <p className="text-xs text-muted-foreground">{t("contact")}</p>
+          <div className="flex flex-col gap-2 sm:flex-row sm:items-center sm:justify-between">
+            <p className="text-xs text-muted-foreground">
+              © {year} Zentrik Technologies LLC. {t("rights")}
+            </p>
+            <p className="max-w-md text-[11px] leading-relaxed text-muted-foreground/80 sm:text-right">
+              {t("disclaimer")}
+            </p>
+          </div>
         </div>
       </div>
     </footer>
