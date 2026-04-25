@@ -18,6 +18,8 @@ export function ThemeToggle() {
   const { setTheme } = useTheme();
   const [mounted, setMounted] = useState(false);
 
+  // Mount detection pattern required by next-themes to avoid SSR hydration mismatch.
+  // eslint-disable-next-line react-hooks/set-state-in-effect
   useEffect(() => setMounted(true), []);
 
   return (

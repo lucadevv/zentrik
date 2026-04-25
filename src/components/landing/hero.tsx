@@ -120,7 +120,7 @@ function HeroVisual({ labels }: { labels: { deployed: string } }) {
               </Line>
               <Line n={3} />
               <Line n={4}>
-                <Cmt>// Built for clients that need to ship fast.</Cmt>
+                <Cmt>{"// Built for clients that need to ship fast."}</Cmt>
               </Line>
               <Line n={5}>
                 <Kw>export const</Kw> <Fn>app</Fn> = <Kw>new</Kw>{" "}
@@ -140,7 +140,7 @@ function HeroVisual({ labels }: { labels: { deployed: string } }) {
               </Line>
               <Line n={9}>
                 {"  "}
-                <Cmt>// Deploy on every push to main.</Cmt>
+                <Cmt>{"// Deploy on every push to main."}</Cmt>
               </Line>
               <Line n={10}>
                 <Brace>{"}"}</Brace>);
