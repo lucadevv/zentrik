@@ -1,0 +1,287 @@
+{
+  "Brand": {
+    "name": "Zentrik",
+    "fullName": "Zentrik Technologies",
+    "legalName": "Zentrik Technologies LLC",
+    "tagline": "Global software studio",
+    "shortDescription": "Construimos software a medida, productos SaaS e integraciones de APIs para empresas que necesitan moverse rápido."
+  },
+  "Nav": {
+    "services": "Servicios",
+    "process": "Proceso",
+    "products": "Productos",
+    "faq": "Preguntas",
+    "contact": "Contacto",
+    "startProject": "Iniciar un proyecto",
+    "openMenu": "Abrir menú",
+    "closeMenu": "Cerrar menú",
+    "toggleTheme": "Cambiar tema",
+    "language": "Idioma",
+    "spanish": "Español",
+    "english": "English",
+    "light": "Claro",
+    "dark": "Oscuro",
+    "system": "Sistema"
+  },
+  "Hero": {
+    "badge": "Software studio · Operando globalmente desde Latinoamérica",
+    "title": "Construimos el software que mueve a las empresas modernas",
+    "subtitle": "Zentrik Technologies LLC es un studio de software global. Diseñamos, construimos y operamos aplicaciones a medida, productos SaaS e integraciones de APIs (Meta, Stripe, WhatsApp Business y más) para startups y empresas que necesitan ejecutar con velocidad.",
+    "ctaPrimary": "Iniciar un proyecto",
+    "ctaSecondary": "Ver lo que hacemos",
+    "trustLine": "Equipo distribuido · Stack moderno · Entrega iterativa con visibilidad total"
+  },
+  "Services": {
+    "kicker": "Qué hacemos",
+    "title": "Cuatro líneas de servicio, un mismo equipo de ingeniería",
+    "subtitle": "Trabajamos como una extensión de tu equipo: desde un MVP hasta una plataforma de producción que escala a miles de usuarios.",
+    "items": {
+      "customDev": {
+        "title": "Desarrollo de software a medida",
+        "description": "Aplicaciones web y mobile, sistemas internos, plataformas B2B. Stack moderno (TypeScript, React, Next.js, Node, Go), arquitectura limpia y código que tu equipo va a poder mantener."
+      },
+      "saasProducts": {
+        "title": "Productos SaaS propios",
+        "description": "Construimos y operamos productos SaaS para mercados específicos. Sendio (mensajería empresarial sobre WhatsApp y Meta) es el primero del portfolio; otros vienen en camino."
+      },
+      "apiIntegrations": {
+        "title": "Integraciones de APIs",
+        "description": "Especialistas en APIs de terceros: Meta Cloud API, WhatsApp Business, Stripe, Mercado Pago, HubSpot, Salesforce, Google Workspace y más. Conectamos lo que tu negocio necesita."
+      },
+      "consulting": {
+        "title": "Consultoría y arquitectura",
+        "description": "Auditorías técnicas, diseño de arquitectura cloud, code review y mentoría a equipos in-house. Entramos cuando necesitás una segunda opinión seria."
+      }
+    }
+  },
+  "Process": {
+    "kicker": "Cómo trabajamos",
+    "title": "Un proceso transparente, sin sorpresas",
+    "subtitle": "Iteración semanal, demos cada sprint y un único punto de contacto. Vos siempre sabés en qué estamos.",
+    "steps": {
+      "step1": {
+        "title": "Discovery",
+        "description": "Entendemos el negocio, los usuarios y el problema real. Salís de esta etapa con un alcance claro, riesgos identificados y una estimación honesta."
+      },
+      "step2": {
+        "title": "Diseño y arquitectura",
+        "description": "Definimos arquitectura, modelo de datos, integraciones y experiencia. Te entregamos diagramas, decisiones documentadas y un roadmap por sprints."
+      },
+      "step3": {
+        "title": "Build iterativo",
+        "description": "Sprints semanales con demo en vivo. Acceso al repo, al staging y al board en todo momento. Cero black box."
+      },
+      "step4": {
+        "title": "Lanzamiento y soporte",
+        "description": "Acompañamos el go-live, configuramos observabilidad y dejamos a tu equipo entrenado. Ofrecemos planes de soporte continuo si lo necesitás."
+      }
+    }
+  },
+  "Products": {
+    "kicker": "Nuestros productos",
+    "title": "Construimos software propio, no solo para clientes",
+    "subtitle": "Reinvertimos en productos SaaS que resuelven problemas reales del mercado. Esto es lo que estamos construyendo hoy.",
+    "items": {
+      "sendio": {
+        "name": "Sendio",
+        "status": "En beta privada",
+        "tag": "Mensajería empresarial",
+        "description": "Plataforma de mensajería empresarial sobre WhatsApp Business y Meta Cloud APIs. Campañas, automatizaciones y bandeja multi-agente para equipos de ventas y soporte en LATAM.",
+        "cta": "Conocer Sendio"
+      },
+      "next": {
+        "name": "Más productos",
+        "status": "En construcción",
+        "tag": "Coming soon",
+        "description": "Estamos investigando los próximos verticales. Si tenés un problema repetitivo en tu industria, queremos escucharte: muchas veces ese dolor se vuelve nuestro próximo producto.",
+        "cta": "Proponer una idea"
+      },
+      "custom": {
+        "name": "¿Algo a medida?",
+        "status": "Para tu empresa",
+        "tag": "Custom build",
+        "description": "Si tu empresa necesita una plataforma propia que no existe en el mercado, la construimos con vos. Trabajamos con startups en serie A en adelante y empresas establecidas.",
+        "cta": "Iniciar un proyecto"
+      }
+    }
+  },
+  "Faq": {
+    "kicker": "Preguntas frecuentes",
+    "title": "Lo que normalmente nos preguntan",
+    "subtitle": "¿Algo que no esté acá? Escribinos a hola@zentrik.lat y te respondemos.",
+    "items": {
+      "what": {
+        "q": "¿Qué hace exactamente Zentrik Technologies?",
+        "a": "Somos un studio de software global. Hacemos tres cosas: (1) construimos aplicaciones a medida para empresas, (2) operamos productos SaaS propios como Sendio, y (3) brindamos consultoría técnica y arquitectura. Todo lo que hacemos pasa por un equipo de ingeniería senior."
+      },
+      "where": {
+        "q": "¿Dónde están basados?",
+        "a": "Operamos globalmente con equipo distribuido. Hoy nuestra presencia operativa es en Latinoamérica y estamos en proceso de incorporación formal en Estados Unidos para servir mejor a clientes internacionales."
+      },
+      "size": {
+        "q": "¿Trabajan con startups o con empresas grandes?",
+        "a": "Ambas. Nos especializamos en startups que necesitan velocidad y en empresas establecidas que quieren modernizar áreas críticas. Si tu proyecto es serio y bien definido, queremos hablar."
+      },
+      "stack": {
+        "q": "¿Qué tecnologías usan?",
+        "a": "Frontend: TypeScript, React, Next.js, Tailwind. Backend: Node, Go, Python según el caso. Infra: AWS, GCP, Cloudflare. Bases: PostgreSQL, Redis. Mensajería: NATS, Kafka. Elegimos la herramienta que resuelve el problema, no la que está de moda."
+      },
+      "billing": {
+        "q": "¿Cómo se factura un proyecto?",
+        "a": "Trabajamos por sprints (time & materials con tope acordado) o por entregable cerrado, según convenga. Facturamos mensualmente desde Zentrik Technologies LLC. Aceptamos USD por wire, Stripe y stablecoins."
+      },
+      "compliance": {
+        "q": "¿Firman NDA y cumplen con regulaciones?",
+        "a": "Sí. Firmamos NDAs antes de cualquier conversación detallada. Aplicamos buenas prácticas de seguridad (cifrado en tránsito y reposo, mínimos privilegios, code review obligatorio) y trabajamos con clientes que requieren GDPR, SOC2 light y políticas de WhatsApp/Meta."
+      },
+      "differenceUS": {
+        "q": "¿Tienen relación con otras empresas llamadas 'Sendio'?",
+        "a": "No. Sendio Inc. (Estados Unidos) es una empresa de seguridad de email completamente ajena a nosotros. Nuestro producto Sendio (de Zentrik Technologies) opera en mensajería sobre WhatsApp y Meta APIs para LATAM. Distintos mercados, distintos productos, sin relación corporativa."
+      }
+    }
+  },
+  "FinalCta": {
+    "title": "¿Tenés un proyecto en mente?",
+    "subtitle": "Contanos qué necesitás construir. Te respondemos en menos de 48 horas con preguntas concretas y próximos pasos.",
+    "ctaPrimary": "Escribinos",
+    "ctaSecondary": "Agendar una llamada"
+  },
+  "Footer": {
+    "tagline": "Global software studio. Construimos software a medida, productos SaaS e integraciones de APIs.",
+    "legalEntity": "Zentrik Technologies LLC — Operando globalmente con presencia en Latinoamérica.",
+    "sections": {
+      "company": "Empresa",
+      "services": "Servicios",
+      "products": "Productos",
+      "legal": "Legal"
+    },
+    "links": {
+      "services": "Servicios",
+      "process": "Proceso",
+      "products": "Productos",
+      "faq": "Preguntas frecuentes",
+      "contact": "Contacto",
+      "sendio": "Sendio",
+      "terms": "Términos y condiciones",
+      "privacy": "Política de privacidad"
+    },
+    "rights": "Todos los derechos reservados.",
+    "disclaimer": "Sendio es una marca y producto de Zentrik Technologies LLC, sin relación con Sendio Inc. (USA — email security)."
+  },
+  "Legal": {
+    "common": {
+      "lastUpdated": "Última actualización",
+      "backHome": "Volver al inicio"
+    },
+    "terms": {
+      "title": "Términos y condiciones",
+      "intro": "Estos Términos y Condiciones (\"Términos\") regulan el acceso y uso de los servicios provistos por Zentrik Technologies LLC (\"Zentrik\", \"nosotros\"), incluyendo desarrollo de software a medida, productos SaaS propios, integraciones de APIs y servicios de consultoría. Al contratar nuestros servicios o utilizar cualquiera de nuestros productos aceptás estos Términos.",
+      "sections": {
+        "identity": {
+          "title": "1. Identidad del proveedor",
+          "body": "Los servicios y productos descritos son provistos por Zentrik Technologies LLC, un studio de software global con operaciones en Latinoamérica y proceso de incorporación formal en Estados Unidos. Zentrik es titular de toda la propiedad intelectual asociada a sus productos, incluyendo la marca \"Sendio\". Aclaración: la marca \"Sendio\" de Zentrik Technologies no tiene relación, sociedad ni vínculo de ningún tipo con Sendio Inc. (Estados Unidos), empresa dedicada a soluciones de seguridad de correo electrónico."
+        },
+        "services": {
+          "title": "2. Servicios y productos",
+          "body": "Zentrik ofrece: (a) desarrollo de software a medida (web, mobile, backend, integraciones); (b) productos SaaS propios; (c) consultoría técnica y de arquitectura; (d) integraciones con APIs de terceros (Meta, Stripe, WhatsApp Business, etc.). El alcance específico de cada engagement se documenta en una propuesta o Statement of Work (SOW) por separado, que forma parte integral de estos Términos."
+        },
+        "engagement": {
+          "title": "3. Modalidad de contratación",
+          "body": "Trabajamos bajo dos modelos principales: time & materials (T&M) con tope acordado por sprint, o entregable cerrado (fixed scope). Cada engagement se rige por una propuesta escrita o SOW que detalla alcance, plazos, equipo asignado y forma de facturación."
+        },
+        "ip": {
+          "title": "4. Propiedad intelectual",
+          "body": "El código y los entregables específicos producidos para un cliente bajo un SOW se transfieren al cliente al pago completo, salvo pacto en contrario. Zentrik retiene la propiedad de su software base, frameworks internos, librerías propias, productos SaaS (incluido Sendio) y toda la propiedad intelectual no específica del proyecto del cliente."
+        },
+        "use": {
+          "title": "5. Uso aceptable",
+          "body": "Los clientes y usuarios se comprometen a utilizar los servicios y productos de Zentrik dentro de la legalidad aplicable, respetando políticas de plataformas de terceros (especialmente Meta y WhatsApp Business cuando aplica), y absteniéndose de usos que comprometan la seguridad, integridad o reputación de Zentrik o sus clientes."
+        },
+        "confidentiality": {
+          "title": "6. Confidencialidad",
+          "body": "Zentrik firma Acuerdos de Confidencialidad (NDA) cuando el cliente lo requiere. Tratamos toda información comercial, técnica y estratégica de nuestros clientes como confidencial por defecto, accesible únicamente al equipo asignado al proyecto."
+        },
+        "billing": {
+          "title": "7. Facturación y pagos",
+          "body": "Las facturas se emiten desde Zentrik Technologies LLC. Aceptamos USD por wire transfer, Stripe (tarjeta) y stablecoins (USDC). Plazos de pago estándar: 15 días desde la emisión, salvo acuerdo distinto en el SOW. Mora habilita suspensión de servicios."
+        },
+        "liability": {
+          "title": "8. Limitación de responsabilidad",
+          "body": "Los servicios y productos se prestan con razonable diligencia profesional. En la máxima medida permitida por la ley aplicable, Zentrik no será responsable por daños indirectos, lucro cesante, pérdida de datos o interrupciones derivadas del uso de los servicios o de APIs de terceros (Meta, proveedores cloud, etc.). La responsabilidad total queda limitada al monto efectivamente facturado en los últimos 6 meses."
+        },
+        "termination": {
+          "title": "9. Terminación",
+          "body": "Cualquiera de las partes puede terminar el engagement con preaviso de 30 días, salvo plazos distintos definidos en el SOW. Tras la terminación, Zentrik entrega los entregables alcanzados y conserva la información del cliente por el plazo legal aplicable."
+        },
+        "law": {
+          "title": "10. Ley aplicable y jurisdicción",
+          "body": "Estos Términos se rigen por la legislación aplicable a Zentrik Technologies LLC en su jurisdicción de incorporación. Las controversias serán sometidas a los tribunales competentes correspondientes, sin perjuicio de procesos de mediación o arbitraje que las partes acuerden por escrito."
+        },
+        "contact": {
+          "title": "11. Contacto",
+          "body": "Para consultas sobre estos Términos, escribinos a legal@zentrik.lat."
+        }
+      }
+    },
+    "privacy": {
+      "title": "Política de privacidad",
+      "intro": "En Zentrik Technologies LLC (\"Zentrik\") respetamos tu privacidad. Esta Política describe qué datos recopilamos a través de nuestro sitio web (zentrik.lat), de las interacciones comerciales y de nuestros productos SaaS, con qué finalidad y cuáles son tus derechos.",
+      "sections": {
+        "controller": {
+          "title": "1. Responsable del tratamiento",
+          "body": "El responsable del tratamiento de los datos personales es Zentrik Technologies LLC. Para ejercer tus derechos podés escribirnos a privacy@zentrik.lat."
+        },
+        "data": {
+          "title": "2. Datos que recopilamos",
+          "body": "Recopilamos: (a) datos de contacto cuando nos escribís o solicitás una propuesta (nombre, email, empresa, mensaje); (b) datos de cuenta y uso cuando utilizás alguno de nuestros productos SaaS; (c) datos analíticos básicos del sitio (páginas visitadas, dispositivo, país, sin identificación personal directa); (d) datos contractuales y de facturación cuando aplica."
+        },
+        "purpose": {
+          "title": "3. Finalidad",
+          "body": "Tratamos los datos para: responder consultas comerciales, prestar los servicios contratados, operar nuestros productos SaaS, facturar, mejorar el sitio y los productos, cumplir obligaciones legales y prevenir fraudes."
+        },
+        "legal": {
+          "title": "4. Base legal",
+          "body": "El tratamiento se basa en el consentimiento (formularios de contacto), la ejecución de contratos (servicios y productos), y nuestro interés legítimo en operar y mejorar lo que ofrecemos."
+        },
+        "share": {
+          "title": "5. Compartir datos con terceros",
+          "body": "Compartimos datos con proveedores que prestan servicios en nuestro nombre (cloud, analytics, comunicación, pagos) y con plataformas necesarias para operar nuestros productos (por ejemplo, Meta Platforms, Inc. cuando un producto SaaS opera sobre sus APIs). Exigimos compromisos contractuales de confidencialidad y seguridad a esos proveedores."
+        },
+        "transfer": {
+          "title": "6. Transferencias internacionales",
+          "body": "Como studio global, parte de la infraestructura y proveedores se encuentran fuera de tu país de residencia. Adoptamos las medidas exigidas por la normativa aplicable para garantizar un nivel adecuado de protección."
+        },
+        "retention": {
+          "title": "7. Conservación",
+          "body": "Conservamos los datos mientras dure la relación comercial o contractual y por los plazos legales adicionales aplicables. Tras ello, los eliminamos o anonimizamos."
+        },
+        "rights": {
+          "title": "8. Tus derechos",
+          "body": "Podés solicitar acceso, rectificación, eliminación, portabilidad y oposición sobre tus datos personales escribiendo a privacy@zentrik.lat. Te respondemos dentro de los plazos legales aplicables."
+        },
+        "security": {
+          "title": "9. Seguridad",
+          "body": "Aplicamos medidas técnicas y organizativas razonables para proteger los datos: cifrado en tránsito y en reposo, control de accesos por roles, monitoreo, auditoría y revisión periódica de proveedores."
+        },
+        "changes": {
+          "title": "10. Cambios en esta Política",
+          "body": "Podemos actualizar esta Política. Notificaremos cambios materiales por email o desde el sitio."
+        }
+      }
+    }
+  },
+  "Meta": {
+    "home": {
+      "title": "Zentrik Technologies · Global software studio",
+      "description": "Zentrik Technologies LLC es un studio de software global. Construimos aplicaciones a medida, productos SaaS e integraciones de APIs (Meta, Stripe, WhatsApp Business y más) para startups y empresas."
+    },
+    "terms": {
+      "title": "Términos y condiciones · Zentrik Technologies",
+      "description": "Términos y condiciones de los servicios y productos provistos por Zentrik Technologies LLC."
+    },
+    "privacy": {
+      "title": "Política de privacidad · Zentrik Technologies",
+      "description": "Cómo trata Zentrik Technologies LLC los datos personales recopilados a través de su sitio, servicios y productos."
+    }
+  }
+}
