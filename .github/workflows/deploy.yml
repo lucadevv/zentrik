@@ -1,0 +1,91 @@
+name: Deploy to Production
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+  workflow_dispatch:
+
+# Never cancel a deploy in flight; queue them.
+concurrency:
+  group: deploy-prod
+  cancel-in-progress: false
+
+env:
+  NEXT_TELEMETRY_DISABLED: "1"
+
+jobs:
+  # ─────────────────────────────────────────────────────────────
+  # 1. VALIDATE — runs on every push AND PR. Catches errors early
+  #    so the VPS never receives broken code.
+  # ─────────────────────────────────────────────────────────────
+  validate:
+    name: Validate (typecheck + lint + build)
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup pnpm
+        uses: pnpm/action-setup@v4
+        with:
+          version: 10
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 24
+          cache: pnpm
+
+      - name: Install dependencies
+        run: pnpm install --frozen-lockfile
+
+      - name: TypeScript check
+        run: pnpm exec tsc --noEmit
+
+      - name: Lint
+        run: pnpm lint
+
+      - name: Build (Next.js standalone)
+        run: pnpm build
+
+  # ─────────────────────────────────────────────────────────────
+  # 2. DEPLOY — only on push to main. SSH to VPS, git pull,
+  #    docker compose up -d --build (build happens IN THE VPS).
+  # ─────────────────────────────────────────────────────────────
+  deploy:
+    name: Deploy to VPS (zentrik.lat)
+    needs: validate
+    if: github.event_name != 'pull_request'
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    environment:
+      name: production
+      url: https://zentrik.lat
+    steps:
+      - name: SSH deploy
+        uses: appleboy/ssh-action@v1
+        with:
+          host: ${{ secrets.VPS_HOST }}
+          username: ${{ secrets.VPS_USER }}
+          key: ${{ secrets.VPS_SSH_KEY }}
+          port: ${{ secrets.VPS_SSH_PORT || 22 }}
+          command_timeout: 15m
+          script: |
+            set -euo pipefail
+            cd ${{ secrets.VPS_PROJECT_PATH }}
+
+            echo "==> Pulling latest code from main"
+            git fetch origin main
+            git reset --hard origin/main
+
+            echo "==> Rebuilding & restarting container (build happens here)"
+            docker compose up -d --build --remove-orphans
+
+            echo "==> Cleaning up dangling images"
+            docker image prune -f
+
+            echo "==> Status:"
+            docker compose ps

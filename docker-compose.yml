@@ -13,6 +13,9 @@ services:
       NEXT_TELEMETRY_DISABLED: "1"
       PORT: "3000"
       HOSTNAME: "0.0.0.0"
+    networks:
+      - internal
+      - proxy-network
     healthcheck:
       test: ["CMD-SHELL", "wget -q --spider http://127.0.0.1:3000/es || exit 1"]
       interval: 30s
@@ -24,3 +27,9 @@ services:
       options:
         max-size: "10m"
         max-file: "3"
+
+networks:
+  internal:
+    driver: bridge
+  proxy-network:
+    external: true
